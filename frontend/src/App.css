@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:-webkit-autofill, input:autofill {
+    background-color: unset !important;
+    background-image: unset !important;
+}
